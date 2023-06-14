@@ -6,15 +6,15 @@ import CardFormationExperience from "../Utils/Cards/CardFormationExperience";
 
 function Experience() {
   return (
-    <Box  
-    backgroundColor="white"
-    borderRadius="10px"
-    alignSelf='center'
-    display="flex"
-    width="100%"
-    padding="20px 0 20px 0"
-    flexDirection="column"
-    gap="20px"
+    <Box
+      backgroundColor="white"
+      borderRadius="10px"
+      alignSelf="center"
+      display="flex"
+      width="100%"
+      padding="20px 0 20px 0"
+      flexDirection="column"
+      gap="20px"
     >
       <Typography marginLeft="50px" level="h4">
         EXPERIENCES
@@ -24,6 +24,7 @@ function Experience() {
         flexDirection="row"
         flexWrap="wrap"
         justifyContent="center"
+        padding='10px'
         gap="60px"
       >
         {experiences.map((experienceItem, index) => {
@@ -32,7 +33,7 @@ function Experience() {
               key={index}
               name={experienceItem.experienceName}
               structure={experienceItem.enterprise}
-              date={experienceItem.date}
+              date={experienceItem.eDate}
               description={experienceItem.eDescription}
               tags={experienceItem.competences}
             />

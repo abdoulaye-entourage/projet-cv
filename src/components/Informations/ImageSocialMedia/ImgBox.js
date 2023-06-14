@@ -11,7 +11,6 @@ function ImgBox() {
       height="385px"
       display="flex"
       justifyContent="center"
-     
     >
       <CardMedia
         sx={{

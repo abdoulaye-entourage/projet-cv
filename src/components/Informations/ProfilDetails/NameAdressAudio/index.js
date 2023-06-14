@@ -31,4 +31,3 @@ export function NameAdresse() {
     </Stack>
   );
 }
-

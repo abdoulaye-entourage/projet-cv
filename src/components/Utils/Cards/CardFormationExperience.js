@@ -1,25 +1,39 @@
-import { Card, Typography, Stack, Box } from "@mui/joy";
+import * as React from 'react';
+import {Typography, Stack, Box } from "@mui/joy";
 import CardModulesCompetences from "./CardModulesCompetences";
 
 function CardFormationExperience({ name, structure, date, description, tags }) {
+  console.log(/*taille de l'écran*/)
   return (
-    <Box display="flex" border='1px solid yellow' flexDirection="column" margin="auto" flexWrap="wrap">
-      <Card
+      
+      <Box
         variant="outlined"
-        sx={{ width: "60%", margin: "auto", border: "1px solid whitesmoke" }}
-        border ='px solid red'
+        display='flex'
+        flexDirection='column'
+        justifyContent='center'
+        flexWrap='wrap'
+        border="1px solid rgba(238, 95, 54, 0.1)"
+        boxShadow='4px 4px 1px rgba(238, 95, 54, 0.1)'
+        borderRadius={10}
+        padding='15px'
+        sx={{
+          
+        }}
+       
       >
-        <Typography level="h2" fontSize="md" sx={{ mb: 0.5 }}>
-          {name}
+        <Stack display='flex' flexDirection='row' flexWrap='wrap'  justifyContent='space-between'> 
+        <Typography display='flex' flexDirection='column'>
+          <Typography level="h2" fontSize="md" sx={{ mb: 0.5 }}>
+            {name}
+          </Typography>
+          <Typography level="body2">{structure}</Typography>
         </Typography>
 
-        <Typography level="body2">{structure}</Typography>
-
-        <Typography
-          sx={{ position: "absolute", top: "0.5rem", right: "0.5rem" }}
-        >
           <Typography>{date}</Typography>
-        </Typography>
+   
+        </Stack>
+
+       
         <Stack sx={{ my: 3 }}>
           <Typography>{description}</Typography>
         </Stack>
@@ -31,8 +45,8 @@ function CardFormationExperience({ name, structure, date, description, tags }) {
             })}
           </Stack>
         </Box>
-      </Card>
-    </Box>
+     
+      </Box>
   );
 }
 export default CardFormationExperience;

@@ -5,7 +5,7 @@ import { PresentationText } from "./Presentation";
 import { Competence } from "./Competence";
 function ProfileDetails() {
   return (
-    <Stack display="flex" gap="42px"  flexWrap="wrap">
+    <Stack display="flex" gap="42px" flexWrap="wrap">
       <NameAdresse />
       <Contrat flexWrap="wrap" />
       <PresentationText />

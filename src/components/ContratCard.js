@@ -5,8 +5,7 @@ import DescriptionIcon from "@mui/icons-material/Description";
 import SmsIcon from "@mui/icons-material/Sms";
 import DirectionsCarIcon from "@mui/icons-material/DirectionsCar";
 import Chip from "@mui/material/Chip";
-function ContratCard({contratElement}) {
-
+function ContratCard({ contratElement }) {
   return (
     <Stack
       key={contratElement.type}
@@ -30,7 +29,7 @@ function ContratCard({contratElement}) {
           />
         </Stack>
         <Typography level="body2" alignSelf="center">
-          {contratElement.type  }
+          {contratElement.type}
         </Typography>
       </Stack>
 

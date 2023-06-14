@@ -17,7 +17,7 @@ function SocialMedia() {
       <Box textAlign="center" marginBottom="25px">
         Pour me donner plus de posibilité, n'hésitez pas à partager mon CV
       </Box>
-      <Box display="flex" flexWrap='wrap'flexDirection='row' gap="40px">
+      <Box display="flex" flexWrap="wrap" flexDirection="row" gap="40px">
         <IconButton
           color="danger"
           sx={{ background: "rgba(238, 95, 54, 0.2)", borderRadius: "50px" }}
