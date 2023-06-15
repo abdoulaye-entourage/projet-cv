@@ -24,7 +24,7 @@ function Experience() {
         flexDirection="row"
         flexWrap="wrap"
         justifyContent="center"
-        padding='10px'
+        padding="10px"
         gap="60px"
       >
         {experiences.map((experienceItem, index) => {

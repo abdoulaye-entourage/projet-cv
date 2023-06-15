@@ -12,7 +12,6 @@ function Formation() {
       display="flex"
       width="100%"
       padding="20px 0 20px 0"
-      border="1px solid blue"
       flexDirection="column"
       gap="20px"
     >
@@ -25,8 +24,7 @@ function Formation() {
         flexWrap="wrap"
         justifyContent="center"
         gap="60px"
-        padding='10px'
-        border='1px solid red'
+        padding="10px"
       >
         {formations.map((formationItem, index) => {
           return (
