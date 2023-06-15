@@ -4,8 +4,8 @@ import { Typography, Stack, Box } from "@mui/joy";
 import CardModulesCompetences from "./CardModulesCompetences";
 
 function CardFormationExperience({ name, structure, date, description, tags }) {
-  const [isMobile, setIsMobile] =useState(window.innerWidth)
-  const [isTablet, setIsTablet] =useState(window.innerWidth)
+  const [isMobile, setIsMobile] =useState()
+  const [isTablet, setIsTablet] =useState()
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window?.innerWidth <=768);
@@ -79,7 +79,7 @@ console.log('isMobile:',isMobile,'isTablet:', isTablet)
           boxShadow="4px 4px 1px rgba(238, 95, 54, 0.1)"
           borderRadius={10}
           padding="15px"
-          width="25rem"
+          width="100%"
         >
           <Stack
             display="flex"
@@ -125,7 +125,7 @@ console.log('isMobile:',isMobile,'isTablet:', isTablet)
           boxShadow="4px 4px 1px rgba(238, 95, 54, 0.1)"
           borderRadius={10}
           padding="15px"
-          width='90%'
+          width='auto'
         >
           <Stack
             display="flex"
