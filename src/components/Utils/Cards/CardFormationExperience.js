@@ -34,6 +34,8 @@ console.log('isMobile:',isMobile,'isTablet:', isTablet)
           borderRadius={10}
           padding="15px"
           width="auto"
+          maxWidth='600px'
+          minWidth='200px'
         >
           <Stack
             display="flex"
@@ -79,7 +81,7 @@ console.log('isMobile:',isMobile,'isTablet:', isTablet)
           boxShadow="4px 4px 1px rgba(238, 95, 54, 0.1)"
           borderRadius={10}
           padding="15px"
-          width="100%"
+          width="auto"
         >
           <Stack
             display="flex"
@@ -126,6 +128,10 @@ console.log('isMobile:',isMobile,'isTablet:', isTablet)
           borderRadius={10}
           padding="15px"
           width='auto'
+          height='auto'
+          maxHeight='300px'
+          maxWidth='600px'
+          minWidth='200px'
         >
           <Stack
             display="flex"
@@ -165,4 +171,5 @@ console.log('isMobile:',isMobile,'isTablet:', isTablet)
   );
 }
 
-export default CardFormationExperience;                 
+export default CardFormationExperience;      
+

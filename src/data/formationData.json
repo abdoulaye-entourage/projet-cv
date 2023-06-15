@@ -1,32 +1,32 @@
 [
   {
-    "formationName": "Nom de la formation",
-    "ecole": "Nom de l'école",
-    "date": "Date",
-    "fDescription": "Lorem ipsum dolor sit amet consectetur .Ea, dolores sequi. dolor sit amet consectetu",
-    "modules": ["module 1", "module 2", "module 3"]
+    "formationName": "ALTERNANCE DEVELOPPEUR WEB ET MOBILE",
+    "ecole": "WebForce3 - Paris",
+    "date": "Octobre 2022- Novembre 2023",
+    "fDescription": "Formation en Altenance d'un an avec un rythme de 90% en entreprise après un boutcamp de trois mois.",
+    "modules": ["HTML/CSS", "JAVASCRIPT/ANGULAR & REACT", "PHP/SYMFONY", "WORDPRESS", "GESTIION DE PROJET WEB"]
   },
 
   {
-    "formationName": "Nom de la formation",
-    "ecole": "Nom de l'école",
-    "date": "Date",
-    "fDescription": "Lorem ipsum dolor sit amet consectetur .Ea, dolores sequi. dolor sit amet consectetu",
-    "modules": ["module 1", "module 2", "module 3"]
+    "formationName": "FORMAIION E-LEARNING",
+    "ecole": "Dyma, Openclassrooms - Paris",
+    "date": "2021",
+    "fDescription": "Formations sur les bases des langages web et en Pack Office.",
+    "modules": ["HTML/CSS", "JAVASCRIPT", "module 3"]
   },
 
   {
-    "formationName": "Nom de la formation",
-    "ecole": "Nom de l'école",
-    "date": "Date",
-    "fDescription": "Lorem ipsum dolor sit amet consectetur .Ea, dolores sequi. dolor sit amet consectetu",
-    "modules": ["module 1", "module 2", "module 3"]
+    "formationName": "Master II : LITERATURE ET CIVILISATION ANGLAISE ET CARIBEENNE",
+    "ecole": "UCAD - Dakar, Sénégal",
+    "date": "Octobre 2013 - Juin 2015",
+    "fDescription": "Formation au département d'anglais dans la section études Anglophones et Caribéenne.  ",
+    "modules": ["civilisation", "littérature", "phonétique anglaise","METHODE DE REDACTION DE MEMOIR",  "grammaire angalise", "francais"]
   },
   {
-    "formationName": "Nom de la formation",
-    "ecole": "Nom de l'école",
-    "date": "Date",
-    "fDescription": "Lorem ipsum dolor sit amet consectetur .Ea, dolores sequi. dolor sit amet consectetu",
-    "modules": ["module 1", "module 2", "module 3"]
+    "formationName": "Licence III (anglais):  Etude Américiane, Africaine et Britanique",
+    "ecole": "UCAD - Dakar, Sénégal",
+    "date": "Octobre 2011 - Juin 2013",
+    "fDescription": "Formation en histoire de la litterature Américaine, Africaine et Birtanique",
+    "modules": ["littérature", "civilisation", "francais","grmmaire anglaise", "phonétique anglaise"]
   }
 ]
