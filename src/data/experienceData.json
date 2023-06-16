@@ -1,30 +1,30 @@
 [
   {
-    "experienceName": "Nom de l'experience",
-    "enterprise": "Nom de l'entreprise",
-    "eDate": "Date",
-    "eDescription": "Lorem ipsum dolor sit amet consectetur .Ea, dolores sequi. dolor sit amet consectetu",
-    "competences": ["Dynamique", "Esprit d'équipe", "Organisé"]
+    "experienceName": "ALTERNANT DEVELOPPEUR WEB ET MOBILE",
+    "enterprise": "ENTOURAGE",
+    "eDate": "Octobre 2022 - Novembre 2023",
+    "eDescription": "En tant qu'alternant, j'étais sous la supervision de deux developpeur full stack et j'ai appris beaucoup de nouvelles choses surtout en javascript React et j'ai acquis d'autres compétences en prenant part à certaines activités de l'association.",
+    "competences": ["Gestion de projet web","gestion de projet en agile", "Esprit d'équipe", "Organisé", "Developpement frontend et backend d'une application"]
   },
   {
-    "experienceName": "Nom de l'experience",
-    "enterprise": "Nom de l'entreprise",
-    "eDate": "Date",
-    "eDescription": "Lorem ipsum dolor sit amet consectetur .Ea, dolores sequi. dolor sit amet consectetu",
-    "competences": ["Dynamique", "Esprit d'équipe", "Organisé"]
+    "experienceName": "PREPARATEUR DE COMMANDE",
+    "enterprise": "Epicerie Ramdane  - Montreuil",
+    "eDate": "Janvier 2021 -Décembre 2022",
+    "eDescription": "Préparation et envoi de produit alimentaires, gestion des commandes, assurer la propreté des locaux, Préparation de mergez, de chipolata et e brochette, gestion des rayons ",
+    "competences": ["Dynamique", "Esprit d'équipe", "Organisé", "fabrication de produits alimentaires", "gestion de commande"]
   },
   {
-    "experienceName": "Nom de l'experience",
-    "enterprise": "Nom de l'entreprise",
-    "eDate": "Date",
-    "eDescription": "Lorem ipsum dolor sit amet consectetur .Ea, dolores sequi. dolor sit amet consectetu",
-    "competences": ["Dynamique", "Esprit d'équipe", "Organisé"]
+    "experienceName": "FONDATEUR ET GERANT D4UN COMMERCE",
+    "enterprise": "Societé multimedia 'TOURE MULTISERVICES' - Dakar, Sénégal",
+    "eDate": "Juilet 2017 -Décembre 2019",
+    "eDescription": "Géran avec deux employés et plus de 500 clients, Services de reprographie et de numérisation, cybercafé, vente d'accéssoire informatiques et éléctroniques, Service de transfert d'argent.",
+    "competences": ["Dynamique", "Esprit d'équipe", "Organisé","vente directe","commerce de détails", "Gestion de la caisse", "realisation des transactions"]
   },
   {
-    "experienceName": "Nom de l'experience",
-    "enterprise": "Nom de l'entreprise",
-    "eDate": "Date",
-    "eDescription": "Lorem ipsum dolor sit amet consectetur .Ea, dolores sequi. dolor sit amet consectetu",
-    "competences": ["Dynamique", "Esprit d'équipe", "Organisé"]
+    "experienceName": "PROFESSEUR D'ANGLAIS",
+    "enterprise": "Barnes English Center",
+    "eDate": "Septembre 2017 -novembre 2019",
+    "eDescription": "Enseignement de l'anglais aux collégiens,lycéens et aux particuliers souhaitant apprendre ou améliorer leur niveau.",
+    "competences": ["Sens de l'organisation", "La pédagogie", "créativité","Curiosité", "Sens de l'écoute", "Culture générale", "Autorité bienveillante"]
   }
 ]
