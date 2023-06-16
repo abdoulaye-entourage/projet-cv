@@ -5,9 +5,14 @@
     "date": "Octobre 2022- Novembre 2023",
     "fDescription": "Formation en Altenance d'un an avec un rythme de 90% en entreprise après un boutcamp de trois mois.",
     "modules": [
-      "HTML/CSS",
-      "JAVASCRIPT/ANGULAR & REACT",
-      "PHP/SYMFONY",
+      "HTML",
+      "CSS",
+      "JAVASCRIPT",
+      "REACT", 
+      "ANGULAR",
+      "PHP",
+      "SYMFONY",
+      "MATERIAL UI",
       "WORDPRESS",
       "GESTIION DE PROJET WEB"
     ]
@@ -16,9 +21,9 @@
   {
     "formationName": "FORMAIION E-LEARNING",
     "ecole": "Dyma, Openclassrooms - Paris",
-    "date": "2021",
+    "date": "Janvier 2021 - Mars 2022",
     "fDescription": "Formations sur les bases des langages web et en Pack Office.",
-    "modules": ["HTML/CSS", "JAVASCRIPT", "module 3"]
+    "modules": ["HTML", "CSS", "JAVASCRIPT", "PACK OFFICE", "BOOTSTRAP"]
   },
 
   {

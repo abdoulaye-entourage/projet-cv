@@ -33,7 +33,6 @@ function CardFormationExperience({ name, structure, date, description, tags }) {
           boxShadow="4px 4px 1px rgba(238, 95, 54, 0.1)"
           borderRadius={10}
           padding="15px"
-         
           width='100%'
           height='auto'
 
@@ -79,7 +78,7 @@ function CardFormationExperience({ name, structure, date, description, tags }) {
           display="flex"
           flexDirection="column"
           flexWrap="wrap"
-          border="1px solid rgba(238, 95, 54, 1)"
+          border="1px solid rgba(238, 95, 54, 0.1)"
           boxShadow="4px 4px 1px rgba(238, 95, 54, 0.1)"
           borderRadius={10}
           padding="15px"
@@ -131,6 +130,7 @@ function CardFormationExperience({ name, structure, date, description, tags }) {
           borderRadius={10}
           padding="15px"
           width='100%'
+          height='auto'
           
         >
           <Stack

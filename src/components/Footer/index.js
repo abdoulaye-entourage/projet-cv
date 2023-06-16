@@ -14,6 +14,7 @@ function Footer() {
       gap="35px"
       padding="26px"
       alignItems="center"
+      
     >
       <Typography level="h6" fontSize="16px">
         Comment pouvez vous me contacter ?

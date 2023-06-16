@@ -23,7 +23,8 @@ function App() {
       </Box>
       <Box
         backgroundColor="white"
-        width="100%"
+        width="90%"
+        margin='auto'
         borderRadius="10px"
         marginTop="15px"
       >
