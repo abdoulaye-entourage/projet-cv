@@ -21,8 +21,7 @@ export function NameAdresse() {
           lineHeight="19.1px"
           level="h6"
         >
-          20 rue du Clos Feuquières 75015
-          Paris(75)
+          20 rue du Clos Feuquières 75015 Paris(75)
         </Typography>
       </Box>
 

@@ -4,7 +4,13 @@
     "ecole": "WebForce3 - Paris",
     "date": "Octobre 2022- Novembre 2023",
     "fDescription": "Formation en Altenance d'un an avec un rythme de 90% en entreprise après un boutcamp de trois mois.",
-    "modules": ["HTML/CSS", "JAVASCRIPT/ANGULAR & REACT", "PHP/SYMFONY", "WORDPRESS", "GESTIION DE PROJET WEB"]
+    "modules": [
+      "HTML/CSS",
+      "JAVASCRIPT/ANGULAR & REACT",
+      "PHP/SYMFONY",
+      "WORDPRESS",
+      "GESTIION DE PROJET WEB"
+    ]
   },
 
   {
@@ -20,13 +26,26 @@
     "ecole": "UCAD - Dakar, Sénégal",
     "date": "Octobre 2013 - Juin 2015",
     "fDescription": "Formation au département d'anglais dans la section études Anglophones et Caribéenne.  ",
-    "modules": ["civilisation", "littérature", "phonétique anglaise","METHODE DE REDACTION DE MEMOIR",  "grammaire angalise", "francais"]
+    "modules": [
+      "civilisation",
+      "littérature",
+      "phonétique anglaise",
+      "METHODE DE REDACTION DE MEMOIR",
+      "grammaire angalise",
+      "francais"
+    ]
   },
   {
     "formationName": "Licence III (anglais):  Etude Américiane, Africaine et Britanique",
     "ecole": "UCAD - Dakar, Sénégal",
     "date": "Octobre 2011 - Juin 2013",
     "fDescription": "Formation en histoire de la litterature Américaine, Africaine et Birtanique",
-    "modules": ["littérature", "civilisation", "francais","grmmaire anglaise", "phonétique anglaise"]
+    "modules": [
+      "littérature",
+      "civilisation",
+      "francais",
+      "grmmaire anglaise",
+      "phonétique anglaise"
+    ]
   }
 ]

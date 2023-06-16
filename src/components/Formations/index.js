@@ -1,6 +1,6 @@
 import React from "react";
 import CardFormationExperience from "../Utils/Cards/CardFormationExperience";
-import { Box, Stack, Typography } from "@mui/joy";
+import { Box, Typography } from "@mui/joy";
 import formations from "../../data/formationData.json";
 
 function Formation() {
@@ -18,13 +18,16 @@ function Formation() {
       <Typography marginLeft="50px" level="h4">
         FORMATIONS
       </Typography>
-      <Stack
-        display="flex"
-        flexDirection="row"
-        flexWrap="wrap"
-        justifyContent="center"
+      <Box
+      display='flex'
+      flexWrap='wrap'
+      justifyContent='center'
         gap="60px"
         padding="10px"
+        margin="10px"
+        width='auto'
+        height='100%'
+       
       >
         {formations.map((formationItem, index) => {
           return (
@@ -38,7 +41,7 @@ function Formation() {
             />
           );
         })}
-      </Stack>
+      </Box>
     </Box>
   );
 }
