@@ -7,20 +7,29 @@ export function NameAdresse() {
       <Box flex="1">
         <Typography
           fontFamily="quicksand"
-  
-         
-          sx={{ color: "#F55F24" ,fontWeight:"700",fontStyle:"normal",fontFamily:"Quicksand", fontSize:"28px",
-          lineHeight:"35px"}}
+          sx={{
+            color: "#F55F24",
+            fontWeight: "700",
+            fontStyle: "normal",
+            fontFamily: "Quicksand",
+            fontSize: "28px",
+            lineHeight: "35px",
+          }}
           level="h3"
         >
           Abdoulaye Toure
         </Typography>
         <Typography
-         
           fontWeight="700"
           lineHeight="19.1px"
           level="h6"
-          sx={{ fontFamily:"Nunito Sans", fontStyle:"normal", fontWeight:"700",lineHeight:"19px", fontSize:"14px"}}
+          sx={{
+            fontFamily: "Nunito Sans",
+            fontStyle: "normal",
+            fontWeight: "700",
+            lineHeight: "19px",
+            fontSize: "14px",
+          }}
         >
           20 rue du Clos Feuquières 75015 Paris(75)
         </Typography>

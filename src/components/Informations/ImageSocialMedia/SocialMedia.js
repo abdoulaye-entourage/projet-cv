@@ -14,7 +14,15 @@ function SocialMedia() {
       alignItems="center"
       justifyContent="center"
     >
-      <Box textAlign="center" marginBottom="25px" fontFamily='Nunito sans' fontStyle='normal' fontWeight='400'  sx={{color:'#6D6C6C', fontSize:'14px'}} lineHeight='24px' >
+      <Box
+        textAlign="center"
+        marginBottom="25px"
+        fontFamily="Nunito sans"
+        fontStyle="normal"
+        fontWeight="400"
+        sx={{ color: "#6D6C6C", fontSize: "14px" }}
+        lineHeight="24px"
+      >
         Pour me donner plus de visibilité, n'hésitez pas à partager mon CV
       </Box>
       <Box display="flex" flexWrap="wrap" flexDirection="row" gap="40px">

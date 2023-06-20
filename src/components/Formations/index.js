@@ -15,18 +15,26 @@ function Formation() {
       flexDirection="column"
       gap="20px"
     >
-      <Typography   sx={{fontFamily:'Nunito sans',marginLeft:"50px", fontWeight: "700", fontSize:"16px",  fontStyle:"normale" }}>
+      <Typography
+        sx={{
+          fontFamily: "Nunito sans",
+          marginLeft: "50px",
+          fontWeight: "700",
+          fontSize: "16px",
+          fontStyle: "normale",
+        }}
+      >
         FORMATIONS
       </Typography>
       <Box
-      display='flex'
-      flexWrap='wrap'
-      justifyContent='center'
+        display="flex"
+        flexWrap="wrap"
+        justifyContent="center"
         gap="60px"
         padding="10px"
         margin="10px"
-        width='auto'
-        height='100%'
+        width="auto"
+        height="100%"
       >
         {formations.map((formationItem, index) => {
           return (

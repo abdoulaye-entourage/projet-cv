@@ -5,7 +5,13 @@ function Buttons({ onChange, label }) {
   return (
     <Box>
       <Button
-        sx={{ background: "#F55F24", fontStyle:"normal", fontWeight:"400",lineHeight:"22px", fontSize:"16px" }}
+        sx={{
+          background: "#F55F24",
+          fontStyle: "normal",
+          fontWeight: "400",
+          lineHeight: "22px",
+          fontSize: "16px",
+        }}
         onClick={onChange}
         variant="contained"
       >

@@ -4,27 +4,55 @@
     "enterprise": "ENTOURAGE",
     "eDate": "Octobre 2022 - Novembre 2023",
     "eDescription": "En tant qu'alternant, j'étais sous la supervision de deux developpeur full stack et j'ai appris beaucoup de nouvelles choses surtout en javascript React.",
-    "competences": ["Gestion de projet web","gestion de projet en agile", "Esprit d'équipe", "Organisé", "Developpement frontend et backend d'une application"]
+    "competences": [
+      "Gestion de projet web",
+      "gestion de projet en agile",
+      "Esprit d'équipe",
+      "Organisé",
+      "Developpement frontend et backend d'une application"
+    ]
   },
   {
     "experienceName": "PREPARATEUR DE COMMANDE",
     "enterprise": "Epicerie Ramdane  - Montreuil",
     "eDate": "Janvier 2021 -Décembre 2022",
     "eDescription": "Préparation et envoi de produit alimentaires, gestion des commandes, assurer la propreté des locaux, Préparation de mergez, de chipolata et de brochette, gestion des rayons ",
-    "competences": ["Dynamique", "Esprit d'équipe", "Organisé", "fabrication de produits alimentaires", "gestion de commande"]
+    "competences": [
+      "Dynamique",
+      "Esprit d'équipe",
+      "Organisé",
+      "fabrication de produits alimentaires",
+      "gestion de commande"
+    ]
   },
   {
     "experienceName": "FONDATEUR ET GERANT D4UN COMMERCE",
     "enterprise": "Societé multimedia :'TOURE MULTISERVICES' - Dakar, Sénégal",
     "eDate": "Juillet 2017 -Décembre 2019",
     "eDescription": "Gérant avec deux employés et plus de 500 clients, Services de reprographie et de numérisation, cybercafé, vente d'accéssoire informatiques et éléctroniques, Service de transfert d'argent.",
-    "competences": ["Dynamique", "Esprit d'équipe", "Organisé","vente directe","commerce de détails", "Gestion de la caisse", "réalisation des transactions"]
+    "competences": [
+      "Dynamique",
+      "Esprit d'équipe",
+      "Organisé",
+      "vente directe",
+      "commerce de détails",
+      "Gestion de la caisse",
+      "réalisation des transactions"
+    ]
   },
   {
     "experienceName": "PROFESSEUR D'ANGLAIS",
     "enterprise": "Barnes English Center",
     "eDate": "Septembre 2017 -novembre 2019",
     "eDescription": "Enseignement de l'anglais aux collégiens,lycéens et aux particuliers souhaitant apprendre ou améliorer leur niveau.",
-    "competences": ["Sens de l'organisation", "La pédagogie", "créativité","Curiosité", "Sens de l'écoute", "Culture générale", "Autorité bienveillante"]
+    "competences": [
+      "Sens de l'organisation",
+      "La pédagogie",
+      "créativité",
+      "Curiosité",
+      "Sens de l'écoute",
+      "Culture générale",
+      "Autorité bienveillante"
+    ]
   }
 ]

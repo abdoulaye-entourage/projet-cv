@@ -28,7 +28,17 @@ function ContratCard({ contratElement }) {
             label="Type de contrat"
           />
         </Stack>
-        <Typography level="body2" alignSelf="center" sx={{fontWeight:'400px', color:'#6D6C6C', fontFamily:'Nunito sans', fontSize:'14px',  fontStyle:'normal'}}  >
+        <Typography
+          level="body2"
+          alignSelf="center"
+          sx={{
+            fontWeight: "400px",
+            color: "#6D6C6C",
+            fontFamily: "Nunito sans",
+            fontSize: "14px",
+            fontStyle: "normal",
+          }}
+        >
           {contratElement.type}
         </Typography>
       </Stack>
@@ -46,7 +56,17 @@ function ContratCard({ contratElement }) {
             label="Disponibilité"
           />
         </Stack>
-        <Typography level="body2" alignSelf="center" sx={{fontWeight:'400px', color:'#6D6C6C', fontFamily:'Nunito sans', fontSize:'14px',  fontStyle:'normal'}}>
+        <Typography
+          level="body2"
+          alignSelf="center"
+          sx={{
+            fontWeight: "400px",
+            color: "#6D6C6C",
+            fontFamily: "Nunito sans",
+            fontSize: "14px",
+            fontStyle: "normal",
+          }}
+        >
           {contratElement.disponibilité}
         </Typography>
       </Stack>
@@ -64,7 +84,17 @@ function ContratCard({ contratElement }) {
             label="Langues parlées"
           />
         </Stack>
-        <Typography level="body2" alignSelf="center" sx={{fontWeight:'400px', color:'#6D6C6C', fontFamily:'Nunito sans', fontSize:'14px',  fontStyle:'normal'}}>
+        <Typography
+          level="body2"
+          alignSelf="center"
+          sx={{
+            fontWeight: "400px",
+            color: "#6D6C6C",
+            fontFamily: "Nunito sans",
+            fontSize: "14px",
+            fontStyle: "normal",
+          }}
+        >
           {contratElement.langue}
         </Typography>
       </Stack>
@@ -82,7 +112,17 @@ function ContratCard({ contratElement }) {
             label="Mobilité"
           />
         </Stack>
-        <Typography level="body2" alignSelf="center" sx={{fontWeight:'400px', color:'#6D6C6C', fontFamily:'Nunito sans', fontSize:'14px',  fontStyle:'normal'}}>
+        <Typography
+          level="body2"
+          alignSelf="center"
+          sx={{
+            fontWeight: "400px",
+            color: "#6D6C6C",
+            fontFamily: "Nunito sans",
+            fontSize: "14px",
+            fontStyle: "normal",
+          }}
+        >
           {contratElement.mobilité}
         </Typography>
       </Stack>

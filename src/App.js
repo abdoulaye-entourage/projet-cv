@@ -15,7 +15,7 @@ function App() {
       <Box>
         <Recommandations />
       </Box>
-      <Box display="flex" justifyContent="center"  padding="20px">
+      <Box display="flex" justifyContent="center" padding="20px">
         <Formation />
       </Box>
       <Box display="flex" justifyContent="center" padding="20px">
@@ -24,7 +24,7 @@ function App() {
       <Box
         backgroundColor="white"
         width="90%"
-        margin='auto'
+        margin="auto"
         borderRadius="10px"
         marginTop="15px"
       >

@@ -9,13 +9,17 @@ const CardModulesCompetences = ({ tag }) => {
       lineHeight="19px"
       fontSize="14px"
       padding="4px"
-     
-  
-      
       backgroundColor="rgba(238, 95, 54, 0.1);"
-      sx={{color:"#EE5F36", 
-      background:"rgba(238, 95, 54, 0.1);",borderRadius:"5px", fontFamily:"Nunito sans", fontWeight:"400", fontStyle:"normal", fontSize:"14px", lineHeight:"19px"}}
-
+      sx={{
+        color: "#EE5F36",
+        background: "rgba(238, 95, 54, 0.1);",
+        borderRadius: "5px",
+        fontFamily: "Nunito sans",
+        fontWeight: "400",
+        fontStyle: "normal",
+        fontSize: "14px",
+        lineHeight: "19px",
+      }}
     >
       {tag}
     </Typography>
