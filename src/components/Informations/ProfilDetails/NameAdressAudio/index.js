@@ -1,5 +1,5 @@
 import { Stack, Box, Typography } from "@mui/joy";
-import Audio from "../../../Audio";
+// import Audio from "../../../Audio";
 
 export function NameAdresse() {
   return (
@@ -24,7 +24,7 @@ export function NameAdresse() {
           lineHeight="19.1px"
           level="h6"
           sx={{
-            fontFamily: "Nunito Sans",
+            fontFamily: "Nunito sans",
             fontStyle: "normal",
             fontWeight: "700",
             lineHeight: "19px",
@@ -35,9 +35,9 @@ export function NameAdresse() {
         </Typography>
       </Box>
 
-      <Box flex="2" padding="10px">
+      {/* <Box flex="2" padding="10px">
         <Audio />
-      </Box>
+      </Box> */}
     </Stack>
   );
 }

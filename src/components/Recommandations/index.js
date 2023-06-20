@@ -1,6 +1,7 @@
 import { Box, Typography } from "@mui/joy";
 import React, { Component } from "react";
-import FormatQuoteSharpIcon from "@mui/icons-material/FormatQuoteSharp";
+// import FormatQuoteSharpIcon from "@mui/icons-material/FormatQuoteSharp";
+import svgicon  from './“.png'
 
 class Recommandations extends Component {
   render() {
@@ -35,7 +36,7 @@ class Recommandations extends Component {
           }}
         >
           <Typography sx={{ color: "#F55F24" }}>
-            <FormatQuoteSharpIcon />
+           
           </Typography>
           <b>
             MIYAKA est un moteur qui aime les challenges et s’investir dans de
@@ -44,7 +45,7 @@ class Recommandations extends Component {
             au long de ses missions.
           </b>
           <Typography sx={{ color: "#F55F24" }}>
-            <FormatQuoteSharpIcon />
+          
           </Typography>
         </Typography>
       </Box>

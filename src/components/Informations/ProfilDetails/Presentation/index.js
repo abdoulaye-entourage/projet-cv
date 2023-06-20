@@ -31,7 +31,7 @@ export function PresentationText() {
             color: "#484848",
             fontStyle: "normal",
             fontWeight: "400",
-            fontFamily: "Nunito Sans",
+            fontFamily: "Nunito sans",
           }}
         >
           enfant d'une famille de 8, je suis arrivé en France en 2018 dans le
@@ -44,7 +44,7 @@ export function PresentationText() {
             color: "#484848",
             fontStyle: "normal",
             fontWeight: "400",
-            fontFamily: "Nunito Sans",
+            fontFamily: "Nunito sans",
           }}
         >
           Après un temps de réflexion, j'ai choisi de me réorienter et
@@ -57,7 +57,7 @@ export function PresentationText() {
             color: "#484848",
             fontStyle: "normal",
             fontWeight: "400",
-            fontFamily: "Nunito Sans",
+            fontFamily: "Nunito sans",
           }}
         >
           Je me tourne donc vers LinkedOut pour bénéficier de son accompagnement
@@ -70,7 +70,7 @@ export function PresentationText() {
             color: "#484848",
             fontStyle: "normal",
             fontWeight: "400",
-            fontFamily: "Nunito Sans",
+            fontFamily: "Nunito sans",
           }}
         >
           Mon parcours atypique témoigne de ma grande polyvalence, de mon

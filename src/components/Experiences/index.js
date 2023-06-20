@@ -12,14 +12,14 @@ function Experience() {
       alignSelf="center"
       display="flex"
       width="100%"
-      padding="20px 0 20px 0"
+      padding="20px"
       flexDirection="column"
-      gap="20px"
+     
     >
       <Typography
         sx={{
           fontFamily: "Nunito sans",
-          marginLeft: "50px",
+          marginLeft: "60px",
           fontWeight: "700",
           fontSize: "16px",
           fontStyle: "normale",
@@ -33,7 +33,7 @@ function Experience() {
         flexWrap="wrap"
         justifyContent="center"
         padding="10px"
-        gap="60px"
+        gap="20px"
       >
         {experiences.map((experienceItem, index) => {
           return (

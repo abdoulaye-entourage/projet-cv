@@ -23,6 +23,7 @@ export function Competence() {
               fontStyle: "normal",
               fontSize: "14px",
               lineHeight: "19px",
+              padding:"4px"
             }}
           >
             Autonomone
@@ -37,6 +38,7 @@ export function Competence() {
               fontStyle: "normal",
               fontSize: "14px",
               lineHeight: "19px",
+              padding:"4px"
             }}
           >
             Consciencieux
@@ -51,6 +53,7 @@ export function Competence() {
               fontStyle: "normal",
               fontSize: "14px",
               lineHeight: "19px",
+              padding:"4px"
             }}
           >
             à l'écoute
@@ -65,6 +68,7 @@ export function Competence() {
               fontStyle: "normal",
               fontSize: "14px",
               lineHeight: "19px",
+              padding:"4px"
             }}
           >
             Ponctuel
@@ -79,6 +83,7 @@ export function Competence() {
               fontStyle: "normal",
               fontSize: "14px",
               lineHeight: "19px",
+              padding:"4px"
             }}
           >
             Calme
