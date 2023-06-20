@@ -5,7 +5,7 @@ export function PresentationText() {
   return (
     <Box display="flex" flexDirection="column" alignItems="center" gap="20px">
       <Typography
-        sx={{color:"#484848", textAlign:"left", fontSize:"14px",fontFamily:"Ninuto sans",lineHeight:"18px", fontWeight:"700", }}
+        sx={{color:"#484848", textAlign:"left", fontSize:"14px",fontFamily:"Ninuto sans",lineHeight:"18px", fontWeight:"700" }}
       >
         J'aimerais travailler en{" "}
         <Typography level="body3" textColor="#EE5F36" fontWeight="bold">

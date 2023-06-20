@@ -14,8 +14,9 @@ class Recommandations extends Component {
         flexDirection="column"
         alignItems="center"
       >
-        <Typography level="h4">Recommandations</Typography>
-        <Typography level="body2">
+        <Typography  sx={{fontFamily:'Nunito sans', fontWeight: "700", fontSize:"20px",  fontStyle:"normale" }}>Recommandations</Typography>
+        <Typography          sx={{color:"#484848", textAlign:"left", fontSize:"14px",fontFamily:"Ninuto sans",lineHeight:"18px", fontWeight:"700" }}
+>
           <Typography sx={{ color: "#F55F24" }}>
             <FormatQuoteSharpIcon />
           </Typography>
