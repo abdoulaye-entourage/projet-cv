@@ -16,7 +16,7 @@ function Experience() {
       flexDirection="column"
       gap="20px"
     >
-      <Typography marginLeft="50px" level="h4">
+      <Typography  sx={{fontFamily:'Nunito sans',marginLeft:"50px", fontWeight: "700", fontSize:"16px",  fontStyle:"normale" }}>
         EXPERIENCES
       </Typography>
       <Stack

@@ -14,67 +14,32 @@ export function Competence() {
           marginBottom="15px"
         >
           <Typography
-            level="body3"
-            fontWeight="600"
-            lineHeight="19px"
-            fontSize="14px"
-            padding="4px"
-            border="1px solid none"
-            borderRadius="5px"
-            textColor="#EE5F36"
-            backgroundColor="rgba(238, 95, 54, 0.1);"
+             sx={{color:"#EE5F36", 
+             background:"rgba(238, 95, 54, 0.1);",borderRadius:"5px", fontFamily:"Nunito sans", fontWeight:"400", fontStyle:"normal", fontSize:"14px", lineHeight:"19px"}}
           >
             Autonomone
           </Typography>
           <Typography
-            level="body3"
-            fontWeight="600"
-            lineHeight="19px"
-            fontSize="14px"
-            padding="4px"
-            border="1px solid none"
-            borderRadius="5px"
-            textColor="#EE5F36"
-            backgroundColor="rgba(238, 95, 54, 0.1);"
+            sx={{color:"#EE5F36", 
+            background:"rgba(238, 95, 54, 0.1);",borderRadius:"5px", fontFamily:"Nunito sans", fontWeight:"400", fontStyle:"normal", fontSize:"14px", lineHeight:"19px"}}
           >
             Consciencieux
           </Typography>
           <Typography
-            level="body3"
-            fontWeight="600"
-            lineHeight="19px"
-            fontSize="14px"
-            padding="4px"
-            border="1px solid none"
-            borderRadius="5px"
-            textColor="#EE5F36"
-            backgroundColor="rgba(238, 95, 54, 0.1);"
+        sx={{color:"#EE5F36", 
+        background:"rgba(238, 95, 54, 0.1);",borderRadius:"5px", fontFamily:"Nunito sans", fontWeight:"400", fontStyle:"normal", fontSize:"14px", lineHeight:"19px"}}
           >
             à l'écoute
           </Typography>
           <Typography
-            level="body3"
-            fontWeight="600"
-            lineHeight="19px"
-            fontSize="14px"
-            padding="4px"
-            border="1px solid none"
-            borderRadius="5px"
-            textColor="#EE5F36"
-            backgroundColor="rgba(238, 95, 54, 0.1);"
+            sx={{color:"#EE5F36", 
+            background:"rgba(238, 95, 54, 0.1);",borderRadius:"5px", fontFamily:"Nunito sans", fontWeight:"400", fontStyle:"normal", fontSize:"14px", lineHeight:"19px"}}
           >
             Ponctuel
           </Typography>
           <Typography
-            level="body3"
-            fontWeight="600"
-            lineHeight="19px"
-            fontSize="14px"
-            padding="4px"
-            border="1px solid none"
-            borderRadius="5px"
-            textColor="#EE5F36"
-            backgroundColor="rgba(238, 95, 54, 0.1);"
+        sx={{color:"#EE5F36", 
+        background:"rgba(238, 95, 54, 0.1);",borderRadius:"5px", fontFamily:"Nunito sans", fontWeight:"400", fontStyle:"normal", fontSize:"14px", lineHeight:"19px"}}
           >
             Calme
           </Typography>

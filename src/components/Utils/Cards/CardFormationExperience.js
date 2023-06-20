@@ -44,17 +44,17 @@ function CardFormationExperience({ name, structure, date, description, tags }) {
             justifyContent="space-between"
           >
             <Typography display="flex" flexDirection="column">
-              <Typography level="h2" fontSize="md" sx={{ mb: 0.5 }}>
+              <Typography  sx={{ color:"#484848", fontFamily:"Nunito sans", fontsize:"16px", lineHeight:"22px", fontWeight:"700", fontStyle:"normale" }}>
                 {name}
               </Typography>
-              <Typography level="body2">{structure}</Typography>
+              <Typography sx={{fontFamily:"Nunito sans", color:"#979797", fontWeight:"400", fontSize:"14px", lineHeight:"19px"}}>{structure}</Typography>
             </Typography>
 
-            <Typography>{date}</Typography>
+            <Typography sx={{color:'#979797', fontFamily:"Nunito sans", fontSize:"14px", fontWeight:"400"}}>{date}</Typography>
           </Stack>
 
           <Stack sx={{ my: 3 }}>
-            <Typography>{description}</Typography>
+            <Typography sx={{fontFamily:"Nunito sans", color:"#979797", fontSize:"16px", lineHeight:"21.82px"}}>{description}</Typography>
           </Stack>
 
           <Box
@@ -92,17 +92,17 @@ function CardFormationExperience({ name, structure, date, description, tags }) {
             justifyContent="space-between"
           >
             <Typography display="flex" flexDirection="column">
-              <Typography level="h2" fontSize="md" sx={{ mb: 0.5 }}>
+            <Typography  sx={{ color:"#484848", fontFamily:"Nunito sans", fontsize:"16px", lineHeight:"22px", fontWeight:"700", fontStyle:"normale" }}>
                 {name}
               </Typography>
-              <Typography level="body2">{structure}</Typography>
+              <Typography sx={{fontFamily:"Nunito sans", color:"#979797", fontWeight:"400", fontSize:"14px", lineHeight:"19px"}}>{structure}</Typography>
             </Typography>
 
-            <Typography>{date}</Typography>
+            <Typography sx={{color:'#979797', fontFamily:"Nunito sans", fontSize:"14px", fontWeight:"400"}}>{date}</Typography>
           </Stack>
 
           <Stack sx={{ my: 3 }}>
-            <Typography>{description}</Typography>
+          <Typography sx={{fontFamily:"Nunito sans", color:"#979797", fontSize:"16px", lineHeight:"21.82px"}}>{description}</Typography>
           </Stack>
           <Box
             display="flex"
@@ -140,16 +140,16 @@ function CardFormationExperience({ name, structure, date, description, tags }) {
             justifyContent="space-between"
           >
             <Typography display="flex" flexDirection="column">
-              <Typography level="h2" fontSize="md" sx={{ mb: 0.5 }}>
+            <Typography  sx={{ color:"#484848", fontFamily:"Nunito sans", fontsize:"16px", lineHeight:"22px", fontWeight:"700", fontStyle:"normale" }}>
                 {name}
               </Typography>
-              <Typography level="body2">{structure}</Typography>
+              <Typography sx={{fontFamily:"Nunito sans", color:"#979797", fontWeight:"400", fontSize:"14px", lineHeight:"19px"}}>{structure}</Typography>
             </Typography>
 
-            <Typography>{date}</Typography>
+            <Typography sx={{color:'#979797', fontFamily:"Nunito sans", fontSize:"14px", fontWeight:"400"}}>{date}</Typography>
           </Stack>
           <Stack sx={{ my: 3 }}>
-            <Typography>{description}</Typography>
+          <Typography sx={{fontFamily:"Nunito sans", color:"#979797", fontSize:"16px", lineHeight:"21.82px"}}>{description}</Typography>
           </Stack>
           <Box
             display="flex"

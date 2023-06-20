@@ -16,7 +16,7 @@ function Footer() {
       alignItems="center"
       
     >
-      <Typography level="h6" fontSize="16px">
+      <Typography sx={{fontFamily:"Quicksand",color:"#484848", fontStyle:"normal", fontWeight:"700", fontSize:"16px", lineHeight:"20px"}}>
         Comment pouvez vous me contacter ?
       </Typography>
       <Buttons onChange={handleClick} label="contact" />

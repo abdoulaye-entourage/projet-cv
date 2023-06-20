@@ -15,7 +15,7 @@ function Formation() {
       flexDirection="column"
       gap="20px"
     >
-      <Typography marginLeft="50px" level="h4">
+      <Typography   sx={{fontFamily:'Nunito sans',marginLeft:"50px", fontWeight: "700", fontSize:"16px",  fontStyle:"normale" }}>
         FORMATIONS
       </Typography>
       <Box
@@ -27,7 +27,6 @@ function Formation() {
         margin="10px"
         width='auto'
         height='100%'
-       
       >
         {formations.map((formationItem, index) => {
           return (
