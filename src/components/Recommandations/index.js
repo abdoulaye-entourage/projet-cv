@@ -1,8 +1,8 @@
 import {  Box, Typography } from "@mui/joy";
 import React, { Component } from "react";
 // import FormatQuoteSharpIcon from "@mui/icons-material/FormatQuoteSharp";
-import openQuotationMark  from '../../assets/images/“(open).png'
-import closeQuatationMark from '../../assets/images/“ (close).png'
+import openQuotationMark  from '../../assets/images/“ (2).svg'
+import closeQuatationMark from '../../assets/images/“ (3).svg'
 import { Stack } from "@mui/material";
 
 
