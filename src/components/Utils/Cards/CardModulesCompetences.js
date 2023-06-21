@@ -15,7 +15,7 @@ const CardModulesCompetences = ({ tag }) => {
         background: "rgba(238, 95, 54, 0.1);",
         borderRadius: "5px",
         fontFamily: "Nunito sans",
-        fontWeight: "400",
+        fontWeight: "600",
         fontStyle: "normal",
         fontSize: "14px",
         lineHeight: "19px",

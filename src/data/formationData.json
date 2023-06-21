@@ -7,14 +7,14 @@
     "modules": [
       "HTML",
       "CSS",
-      "JAVASCRIPT",
-      "REACT",
-      "ANGULAR",
+      "Javascript",
+      "React",
+      "Angular",
       "PHP",
-      "SYMFONY",
-      "MATERIAL UI",
-      "WORDPRESS",
-      "GESTIION DE PROJET WEB"
+      "Symfony",
+      "Material UI",
+      "Wordpress",
+      "Gestion de projet web"
     ]
   },
 
@@ -23,7 +23,7 @@
     "ecole": "Dyma, Openclassrooms - Paris",
     "date": "Janvier 2021 - Mars 2022",
     "fDescription": "Formations sur les bases des langages web et en Pack Office.",
-    "modules": ["HTML", "CSS", "JAVASCRIPT", "PACK OFFICE", "BOOTSTRAP"]
+    "modules": ["HTML", "CSS", "Javascript", "Pack Office", "Bootstrap"]
   },
 
   {
@@ -32,10 +32,10 @@
     "date": "Octobre 2013 - Juin 2015",
     "fDescription": "Formation au département d'anglais dans la section études Anglophones et Caribéenne.  ",
     "modules": [
-      "civilisation",
-      "littérature",
-      "phonétique anglaise",
-      "METHODE DE REDACTION DE MEMOIR",
+      "Civilisation",
+      "Littérature",
+      "Phonétique anglaise",
+      "Méthode de rédaction de mémoir",
       "grammaire angalise",
       "francais"
     ]
@@ -46,11 +46,11 @@
     "date": "Octobre 2011 - Juin 2013",
     "fDescription": "Formation en histoire de la litterature Américaine, Africaine et Birtanique",
     "modules": [
-      "littérature",
-      "civilisation",
-      "francais",
-      "grmmaire anglaise",
-      "phonétique anglaise"
+      "Littérature",
+      "Civilisation",
+      "Francais",
+      "Grammaire anglaise",
+      "Phonétique anglaise"
     ]
   }
 ]

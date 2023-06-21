@@ -9,8 +9,8 @@ export function PresentationText() {
           color: "#484848",
           textAlign: "left",
           fontSize: "14px",
-          fontFamily: "Ninuto sans",
-          lineHeight: "18px",
+          fontFamily: "Nunito sans",
+          lineHeight: "19.1px",
           fontWeight: "700",
         }}
       >
