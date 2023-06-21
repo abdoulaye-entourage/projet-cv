@@ -1,6 +1,7 @@
 import { Box, Typography } from "@mui/joy";
 import Buttons from "../Utils/Button";
 
+
 function Footer() {
   function handleClick(event) {
     event.preventDefault();
@@ -28,6 +29,7 @@ function Footer() {
         Comment pouvez vous me contacter ?
       </Typography>
       <Buttons onChange={handleClick} label="contact" />
+    
     </Box>
   );
 }

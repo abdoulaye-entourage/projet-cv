@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Mon CV
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ce projet contient mon CV personnel développé avec React JS et Material-UI, offrant une interface interactive et personnalisable.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## Fonctionnalités
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Affichage dynamique des informations personnelles, de l'expérience, de l'éducation, etc.
+- Thème personnalisable avec prise en charge de Material-UI pour une apparence cohérente.
+- Intégration de icônes et de polices personnalisées pour une touche unique.
+- Ajout facile de nouvelles sections et de contenu supplémentaire.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Prérequis
 
-### `npm test`
+ Avant de démarrer le projet assurez-vous d'avoir les éléments suivants installés :
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js : [Téléchargement](https://nodejs.org)
+- npm : Généralement installé avec Node.js
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clonez ce dépôt de code sur votre machine locale :
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Accédez au répertoire du projet :
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Installez les dépendances nécessaires :
+-npm install 
+- npm install react-dom
+- npm install @material-ui/core
+- npm install @emotion/react @emotion/styled
+- npm install @material-ui/icons
+- npm install --save-dev prettier (Pour le formatage)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+si vous souhaitez déployer le projet, vous pouvez configurer github pages. pour cela vous aurez besoin de faire cette commande : 
+- npm install --save-dev gh-pages
+- suivez les instructions de confuguration de github pages avec ce lien : 
+- https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Personnalisation
 
-## Learn More
+Vous pouvez personnaliser votre CV en modifiant les fichiers sources dans le répertoire `src/`. Voici quelques points à considérer :
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Mettez à jour les données dans les fichiers `data.js` pour refléter votre expérience, éducation, compétences, etc.
+- Personnalisez le thème en modifiant les propriétés directement au niveau des composants Material UI. 
+- Ajoutez vos propres icônes ou utilisez les icônes Material-UI en important vos composants dans material IU. n'hesitez pas à jeter un coup d'oeil dans la documentation de Material UI. 
+- Ajoutez vos propres polices en les important et en les configurant. J'ai utilisé les liens CDN suivant  pour les fonts Nunito sans et Quicksand si vous souhaitez faire comme moi : 
+-  <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+-   <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Utilisation
 
-### Code Splitting
+Pour lancer l'application en mode développement, exécutez la commande suivante :
+- npm run build
+- npm install -g serve
+- serve -s build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Cela lancera l'application sur [http://localhost:3000](http://localhost:3000) dans votre navigateur par défaut.
 
-### Making a Progressive Web App
+## Construction
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Pour construire l'application prête pour la production, exécutez la commande suivante :
+- npm run deploy 
 
-### Advanced Configuration
+Cela générera les fichiers optimisés dans le répertoire `build/`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contribution
 
-### Deployment
+Les contributions sont les bienvenues ! Si vous souhaitez améliorer ce projet, n'hésitez pas à ouvrir une nouvelle issue ou à soumettre une pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
