@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from 'react-helmet';
 import CardFormationExperience from "../Utils/Cards/CardFormationExperience";
 import { Box, Typography } from "@mui/joy";
 import formations from "../../data/formationData.json";
@@ -15,6 +16,10 @@ function Formation() {
       flexDirection="column"
      
     >
+       <Helmet>
+        <title>Formation - Mon CV en ligne</title>
+        <meta name="description" content="titulaire d'un Master II en littérature et civilisation américaine et caribéenne, je me suis d'abord formé en autodidacte aux bases des langages web, avant de me lancer dans une formation diplômante. Je me forme en alternance afin de mieux maitriser les ficels de ce métier." />
+      </Helmet>
       <Typography
         sx={{
           fontFamily: "Nunito sans",

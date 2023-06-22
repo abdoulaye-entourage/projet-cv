@@ -1,5 +1,6 @@
 import { Box, Stack, Typography } from "@mui/joy";
 import React from "react";
+import { Helmet } from 'react-helmet';
 import experiences from "../../data/experienceData.json";
 import CardFormationExperience from "../Utils/Cards/CardFormationExperience";
 // import CardFormationExperience from '../utils/CardFormationExperience';
@@ -16,6 +17,10 @@ function Experience() {
       flexDirection="column"
      
     >
+       <Helmet>
+        <title>Expériences professionnelles</title>
+        <meta name="description" content="Auparavant, entrepreneur,commerçant de détails, profeseur d'anglais, préparateur de commande, je suis aujourd'hui en alternance dans le cadre d'une formaion en développement web et mobile." />
+      </Helmet>
       <Typography
         sx={{
           fontFamily: "Nunito sans",
