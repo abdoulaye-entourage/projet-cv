@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
      <Helmet>
-        <title>Cv de Abdoulaye</title>
+        <title>Mon CV en ligne</title>
         <meta name="description" content="Bienvenue sur mon CV en ligne. Vous y trouverez mes informations personnelles, mes informations de contact ainsi que les formations que j'ai fait et le experiences acquises " />
         <link rel="canonical" href="https://abdoulaye-entourage.github.io/projet-cv/" />
         <link
