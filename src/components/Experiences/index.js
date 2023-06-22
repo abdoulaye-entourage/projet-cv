@@ -18,7 +18,6 @@ function Experience() {
      
     >
        <Helmet>
-        <title>Expériences professionnelles</title>
         <meta name="description" content="Auparavant, entrepreneur,commerçant de détails, profeseur d'anglais, préparateur de commande, je suis aujourd'hui en alternance dans le cadre d'une formaion en développement web et mobile." />
       </Helmet>
       <Typography
