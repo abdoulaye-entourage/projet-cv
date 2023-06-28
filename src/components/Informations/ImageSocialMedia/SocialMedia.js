@@ -43,9 +43,9 @@ function SocialMedia() {
         sx={{ color: "#6D6C6C", fontSize: "14px" }}
         lineHeight="24px"
       >
-        Pour me donner plus de visibilité, n'hésitez pas à partager mon CV
+        Pour me donner plus de visibilité, <br/> n'hésitez pas à partager mon CV
       </Box>
-      <Box display="flex" flexWrap="wrap" flexDirection="row" gap="40px">
+      <Box display="flex" flexWrap="wrap" flexDirection="row" gap="20px">
       <IconButton
           color="danger"
           sx={{ background: "rgba(238, 95, 54, 0.2)", borderRadius: "50px" }}

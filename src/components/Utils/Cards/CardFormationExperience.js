@@ -18,31 +18,30 @@ function CardFormationExperience({ name, structure, date, description, tags }) {
     };
   }, []);
 
-  console.log("isMobile:", isMobile, "isTablet:", isTablet);
 
   return (
     <>
       {isMobile && (
-        <Box width="100%" display="flex">
+        <Box width="100%" display="flex" >
           <Box
-            variant="outlined"
             display="flex"
             flexDirection="column"
             flexWrap="wrap"
-            border="1px solid rgba(238, 95, 54, 0.1)"
-            boxShadow="4px 4px 1px rgba(238, 95, 54, 0.1)"
-            borderRadius={10}
+            borderRadius=" 20px"
+            border=" 1px solid #FFE7E0"
+            boxShadow= "0px 4px 4px 0px rgba(0, 0, 0, 0.15)"
             padding="15px"
             width="100%"
             height="auto"
           >
             <Stack
               display="flex"
-              flexDirection="row"
+              flexDirection="column"
               flexWrap="wrap"
               justifyContent="space-between"
+              gap='10px'
             >
-              <Typography display="flex" flexDirection="column">
+              <Box display="flex" flexDirection="column" gap="10px" >
                 <Typography
                   sx={{
                     color: "#484848",
@@ -62,11 +61,12 @@ function CardFormationExperience({ name, structure, date, description, tags }) {
                     fontWeight: "400",
                     fontSize: "14px",
                     lineHeight: "19px",
+                    
                   }}
                 >
                   {structure}
                 </Typography>
-              </Typography>
+              </Box>
 
               <Typography
                 sx={{
@@ -108,9 +108,9 @@ function CardFormationExperience({ name, structure, date, description, tags }) {
             display="flex"
             flexDirection="column"
             flexWrap="wrap"
-            border="1px solid rgba(238, 95, 54, 0.1)"
-            boxShadow="4px 4px 1px rgba(238, 95, 54, 0.1)"
-            borderRadius={10}
+            borderRadius=" 20px"
+            border=" 1px solid #FFE7E0"
+            boxShadow= "0px 4px 4px 0px rgba(0, 0, 0, 0.15)"
             padding="15px"
             width="100%"
             height="auto"
@@ -120,8 +120,9 @@ function CardFormationExperience({ name, structure, date, description, tags }) {
               flexDirection="row"
               flexWrap="wrap"
               justifyContent="space-between"
+              gap='10px'
             >
-              <Typography display="flex" flexDirection="column">
+              <Box display="flex" flexDirection="column" gap='10px'>
                 <Typography
                   sx={{
                     color: "#484848",
@@ -145,7 +146,7 @@ function CardFormationExperience({ name, structure, date, description, tags }) {
                 >
                   {structure}
                 </Typography>
-              </Typography>
+              </Box>
 
               <Typography
                 sx={{
@@ -185,9 +186,9 @@ function CardFormationExperience({ name, structure, date, description, tags }) {
             variant="outlined"
             display="flex"
             flexDirection="column"
-            border="1px solid rgba(238, 95, 54, 0.1)"
-            boxShadow="4px 4px 1px rgba(238, 95, 54, 0.1)"
-            borderRadius={10}
+            borderRadius=" 20px"
+            border=" 1px solid #FFE7E0"
+            boxShadow= "0px 4px 4px 0px rgba(0, 0, 0, 0.15)"
             padding="15px"
             width="100%"
             height="auto"
@@ -198,7 +199,7 @@ function CardFormationExperience({ name, structure, date, description, tags }) {
               flexWrap="wrap"
               justifyContent="space-between"
             >
-              <Typography display="flex" flexDirection="column">
+              <Box display="flex" flexDirection="column" gap='10px'>
                 <Typography
                   sx={{
                     color: "#484848",
@@ -222,7 +223,7 @@ function CardFormationExperience({ name, structure, date, description, tags }) {
                 >
                   {structure}
                 </Typography>
-              </Typography>
+              </Box>
 
               <Typography
                 sx={{

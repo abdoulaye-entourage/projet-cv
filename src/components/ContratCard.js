@@ -14,12 +14,13 @@ function ContratCard({ contratElement }) {
       flexWrap="wrap"
       justifyContent="space-between"
       alignContent="center"
+      
     >
       <Stack>
-        <Stack level="body3" color="#EE5F36">
+        <Stack color="#EE5F36">
           <Chip
             variant="outlined"
-            sx={{ border: "none", color: "#F55F24" }}
+            sx={{ border: "none",  fontSize: "12px", color: "#F55F24" }}
             avatar={
               <Typography sx={{ background: "none" }}>
                 <DescriptionIcon sx={{ color: "#F55F24" }} />
@@ -29,14 +30,14 @@ function ContratCard({ contratElement }) {
           />
         </Stack>
         <Typography
-          level="body2"
-          alignSelf="center"
           sx={{
             fontWeight: "400px",
             color: "#6D6C6C",
             fontFamily: "Nunito sans",
             fontSize: "14px",
-            fontStyle: "normal",
+            fontStyle: "normal", 
+            textAlign:'center',
+           
           }}
         >
           {contratElement.type}
@@ -44,10 +45,10 @@ function ContratCard({ contratElement }) {
       </Stack>
 
       <Stack>
-        <Stack level="body3" color="#EE5F36">
+        <Stack  color="#EE5F36">
           <Chip
             variant="outlined"
-            sx={{ border: "none", color: "#F55F24" }}
+            sx={{ border: "none",fontSize: "12px", color: "#F55F24" }}
             avatar={
               <Typography sx={{ background: "none" }}>
                 <EventAvailableIcon sx={{ color: "#F55F24" }} />
@@ -57,14 +58,16 @@ function ContratCard({ contratElement }) {
           />
         </Stack>
         <Typography
-          level="body2"
-          alignSelf="center"
+          
           sx={{
             fontWeight: "400px",
             color: "#6D6C6C",
             fontFamily: "Nunito sans",
             fontSize: "14px",
             fontStyle: "normal",
+            textAlign:'center',
+            marginLeft:'55px',
+            
           }}
         >
           {contratElement.disponibilité}
@@ -72,10 +75,10 @@ function ContratCard({ contratElement }) {
       </Stack>
 
       <Stack>
-        <Stack level="body3" color="#EE5F36">
+        <Stack  color="#EE5F36">
           <Chip
             variant="outlined"
-            sx={{ border: "none", color: "#F55F24" }}
+            sx={{ border: "none",fontSize: "12px", color: "#F55F24" }}
             avatar={
               <Typography sx={{ background: "none" }}>
                 <SmsIcon sx={{ color: "#F55F24" }} />
@@ -85,14 +88,14 @@ function ContratCard({ contratElement }) {
           />
         </Stack>
         <Typography
-          level="body2"
-          alignSelf="center"
           sx={{
             fontWeight: "400px",
             color: "#6D6C6C",
             fontFamily: "Nunito sans",
             fontSize: "14px",
             fontStyle: "normal",
+            textAlign:'center',
+            marginLeft:'42px',
           }}
         >
           {contratElement.langue}
@@ -100,10 +103,10 @@ function ContratCard({ contratElement }) {
       </Stack>
 
       <Stack>
-        <Stack level="body3" color="#EE5F36">
+        <Stack color="#EE5F36">
           <Chip
             variant="outlined"
-            sx={{ border: "none", color: "#F55F24" }}
+            sx={{fontSize: "12px",border: "none", color: "#F55F24" }}
             avatar={
               <Typography sx={{ background: "none" }}>
                 <DirectionsCarIcon sx={{ color: "#F55F24" }} />
@@ -113,14 +116,17 @@ function ContratCard({ contratElement }) {
           />
         </Stack>
         <Typography
-          level="body2"
-          alignSelf="center"
           sx={{
             fontWeight: "400px",
             color: "#6D6C6C",
             fontFamily: "Nunito sans",
             fontSize: "14px",
             fontStyle: "normal",
+            textAlign:'center',
+           display:'flex',
+           marginLeft:'120px',
+           
+            
           }}
         >
           {contratElement.mobilité}

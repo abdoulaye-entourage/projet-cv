@@ -12,7 +12,7 @@ function GeneralProfilInfos() {
       flexWrap="wrap"
       width="100%"
       gap="15px"
-      borderRadius="10px"
+      borderRadius="30px"
       backgroundColor="white"
     >
       <Stack flex="1" alignItems="center" gap="22px" display="flex">

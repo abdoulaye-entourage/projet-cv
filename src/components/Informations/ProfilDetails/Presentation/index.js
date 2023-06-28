@@ -3,15 +3,16 @@ import Typography from "@mui/joy/Typography";
 
 export function PresentationText() {
   return (
-    <Box display="flex" flexDirection="column" alignItems="center" gap="20px">
+    <Box display="flex" flexDirection="column"  alignItems="center" justifyContent="left" gap="20px">
       <Typography
         sx={{
           color: "#484848",
           textAlign: "left",
-          fontSize: "14px",
+          fontSize: "16px",
           fontFamily: "Nunito sans",
           lineHeight: "19.1px",
           fontWeight: "700",
+          width:'100%'
         }}
       >
         J'aimerais travailler en{" "}

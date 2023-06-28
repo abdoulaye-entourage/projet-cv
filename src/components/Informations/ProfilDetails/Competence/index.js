@@ -1,18 +1,17 @@
 import { Box } from "@mui/material";
-import { Stack, Typography } from "@mui/joy";
+import { Typography } from "@mui/joy";
 export function Competence() {
   return (
-    <Box>
-      <Box>
-        <Stack
-          display="flex"
-          flexDirection="row"
-          flexWrap="wrap"
-          gap="25px"
-          alignItems="center"
-          justifyContent="left"
-          marginBottom="15px"
-        >
+    
+      <Box 
+      display="flex"
+      flexDirection="row"
+      flexWrap="wrap"
+      gap="20px"
+      alignItems="center"
+      justifyContent="left"
+      marginBottom="15px"
+      >
           <Typography
             sx={{
               color: "#EE5F36",
@@ -88,8 +87,8 @@ export function Competence() {
           >
             Calme
           </Typography>
-        </Stack>
+        
       </Box>
-    </Box>
+    
   );
 }

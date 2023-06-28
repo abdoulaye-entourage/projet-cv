@@ -15,17 +15,18 @@ function App() {
       <Box>
         <Recommandations />
       </Box>
-      <Box display="flex" justifyContent="center" padding="20px">
-        <Formation />
-      </Box>
-      <Box display="flex" justifyContent="center" padding="20px">
+      <Box display="flex" justifyContent="center" padding="10px" >
         <Experience />
       </Box>
+      <Box display="flex" justifyContent="center" padding="10px" >
+        <Formation />
+      </Box>
+     
       <Box
         backgroundColor="white"
         width="90%"
         margin="auto"
-        borderRadius="10px"
+        borderRadius="10px"                                          
         marginTop="15px"
       >
         <Footer></Footer>
