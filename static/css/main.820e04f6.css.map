@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.820e04f6.css","mappings":"AAAA,KACE,6BACF,CCFA,cACE,WACF","sources":["index.css","App.css"],"sourcesContent":["body {\n  background: rgba(238, 95, 54, 0.1);\n}\n",".small-screen {\n  width: 960px;\n}\n"],"names":[],"sourceRoot":""}
