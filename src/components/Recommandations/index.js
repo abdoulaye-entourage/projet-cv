@@ -31,7 +31,7 @@ class Recommandations extends Component {
         </Typography>
         <Stack position='relative' display='flex' gap="25px" flexDirection='row'>
 
-        <Box sx={{ color: "#F55F24", position:'absolute', left : "-30px", top:'-15px'}} >
+        <Box sx={{ color: "#F55F24", position:'absolute', left : "-35px", top:'-20px'}} >
             <img src={openQuotationMark} alt="guillemet ouvrant" />
           </Box>
         
@@ -40,9 +40,9 @@ class Recommandations extends Component {
             display:'flex',
             color: "#484848",
             textAlign: "left",
-            fontSize: "14px",
+            fontSize: "16px",
             fontFamily: "Nunito sans",
-            lineHeight: "18px",
+            lineHeight: "19.1px",
             fontWeight: "700",
 
           }}
@@ -53,7 +53,7 @@ class Recommandations extends Component {
             au long de ses missions.
               </Typography>
 
-              <Box sx={{ color: "#F55F24", position: 'absolute', right:'-15px', bottom:'-10px'}}>
+              <Box sx={{ color: "#F55F24", position: 'absolute', right:'-18px', bottom:'-15px'}}>
           <img src={closeQuatationMark} alt="guillemet ouvrant" />
           </Box>  
           </Stack>

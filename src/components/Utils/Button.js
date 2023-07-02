@@ -1,11 +1,11 @@
 import { Box } from "@mui/joy";
-import Button from "@mui/material/Button";
+import MUIButton from "@mui/material/Button";
 import '../../assets/styles/button.css';
 
-function Buttons({ onChange, label }) {
+function Button({ onChange, label }) {
   return (
     <Box>
-      <Button
+      <MUIButton
         sx={{
           background: "#F55F24",
           fontStyle: "normal",
@@ -20,9 +20,9 @@ function Buttons({ onChange, label }) {
        className="buttonHover"
       >
         {label}
-      </Button>
+      </MUIButton>
     </Box>
   );
 }
 
-export default Buttons;
+export default Button;

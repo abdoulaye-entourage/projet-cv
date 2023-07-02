@@ -1,5 +1,5 @@
 import { Box, Typography } from "@mui/joy";
-import Buttons from "../Utils/Button";
+import Button from "../Utils/Button";
 
 
 function Footer() {
@@ -28,7 +28,7 @@ function Footer() {
       >
         Comment pouvez vous me contacter ?
       </Typography>
-      <Buttons onChange={handleClick} label="contact" />
+      <Button onChange={handleClick} label="contact" />
     
     </Box>
   );
