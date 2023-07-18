@@ -22,8 +22,9 @@ export function PresentationText() {
         dans l'informatique plus précisement dans le développement web et mobile
         en tant que{" "}
         <Typography level="body3" textColor="#EE5F36">
-          développeur intégrateur web.
+          développeur intégrateur web,
         </Typography>{" "}
+        un domaine qui m'a toujours passioné.
       </Typography>
       <Box display="flex" flexDirection="column" gap="10px">
         <Typography
@@ -35,9 +36,7 @@ export function PresentationText() {
             fontFamily: "Nunito sans",
           }}
         >
-          enfant d'une famille de 8, je suis arrivé en France en 2018 dans le
-          cadre de mon cursus dans une communauté religieuse où j'ai reçu une
-          belle et riche formation humaine, intellectuelle et spirituelle.
+        Je suis né au Sénégal et je suis titulaire d'un Master 2 en littérature et civilisation américaine et caribéenne.
         </Typography>
         <Typography
           sx={{
@@ -48,9 +47,8 @@ export function PresentationText() {
             fontFamily: "Nunito sans",
           }}
         >
-          Après un temps de réflexion, j'ai choisi de me réorienter et
-          d'intégrer un parcours de formation qui puisse me permettre de
-          retrouver rapidement une voie professionnelle.
+         Après le master, je me suis formé en autodidacte avant de créer une société multimédia tout en enseignant l'anglais à des lycéens, collégiens et particuliers.
+         Je suis arrivé en France début 2020 et j'ai travaillé comme préparateur de commande dans une épicerie à Montreuil.
         </Typography>
         <Typography
           sx={{
@@ -64,6 +62,7 @@ export function PresentationText() {
           Je me tourne donc vers LinkedOut pour bénéficier de son accompagnement
           dans ma recherche d'un emploi fiable, stable et durable afin de
           réaliser mes projets d'avenir.
+          Je travail en tant qu'alternant développeur web et web mobile chez Entourage jusqu'en Octobre 2023.  
         </Typography>
         <Typography
           sx={{
