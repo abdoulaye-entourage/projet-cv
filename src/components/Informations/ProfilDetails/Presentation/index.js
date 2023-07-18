@@ -59,7 +59,7 @@ export function PresentationText() {
             fontFamily: "Nunito sans",
           }}
         >
-          Je me tourne donc vers LinkedOut pour bénéficier de son accompagnement
+          Je me suis tourné donc vers LinkedOut pour bénéficier de son accompagnement
           dans ma recherche d'un emploi fiable, stable et durable afin de
           réaliser mes projets d'avenir.
           Je travail en tant qu'alternant développeur web et web mobile chez Entourage jusqu'en Octobre 2023.  
