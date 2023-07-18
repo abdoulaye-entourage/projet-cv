@@ -1,3 +1,11 @@
 .small-screen {
   width: 960px;
 }
+.nomCitation {
+  color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
