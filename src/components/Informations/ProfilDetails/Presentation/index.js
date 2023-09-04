@@ -15,16 +15,15 @@ export function PresentationText() {
           width:'100%'
         }}
       >
-        J'aimerais travailler en{" "}
-        <Typography level="body3" textColor="#EE5F36" fontWeight="bold">
+        Avec une passion pour le développement web et mobile, je vise un{' '}
+        <Typography level="body2" textColor="#EE5F36" fontWeight="bold">
           CDI{" "}
         </Typography>
-        dans l'informatique plus précisement dans le développement web et mobile
         en tant que{" "}
-        <Typography level="body3" textColor="#EE5F36">
+        <Typography level="body2" textColor="#EE5F36">
           développeur intégrateur web,
         </Typography>{" "}
-        un domaine qui m'a toujours passioné.
+        Ma Maîtrise des langages clés, des framework comme React, et mon portfolio varié témoigne de ma capacité à créer des expériences numériques exceptionnelles.Prêt à relever de nouveaux défis au sein d'une équipe dynamique !
       </Typography>
       <Box display="flex" flexDirection="column" gap="10px">
         <Typography
