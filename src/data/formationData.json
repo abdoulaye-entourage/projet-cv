@@ -3,7 +3,7 @@
     "formationName": "Alternance Développeur web et mobile",
     "ecole": "WebForce3 - Paris",
     "date": "Octobre 2022- Novembre 2023",
-    "fDescription": "Formation en Altenance d'un an avec un rythme de 90% en entreprise après un boutcamp de trois mois.",
+    "fDescription": "Formation en Altenance d'un an avec un rythme de 90% en entreprise après un Boot Camp de trois mois.",
     "modules": [
       "HTML",
       "CSS",
@@ -11,6 +11,8 @@
       "React",
       "Angular",
       "PHP",
+      "TypeScript",
+      "Bootstrap",
       "Symfony",
       "Material UI",
       "Wordpress",
